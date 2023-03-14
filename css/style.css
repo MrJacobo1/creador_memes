@@ -1,0 +1,84 @@
+/* fuente 1 */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+
+/* fuente 2 */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* font-family: 'Shadows Into Light', cursive; */
+
+/* fuente 2 */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+/* font-family: 'Lilita One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: #703951;
+    text-align: center;
+    font-size: 16px;
+    color: #c9ad9b;
+    padding: 10px 0px;
+    position: relative;
+    border: 1px solid #382f32;
+    font-family: 'Rampart One', cursive;
+}	
+
+.seccion_1{
+	height: auto;
+	background-color: #f19f7c;
+	font-size:20px;
+    width: 50%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.seccion_2{
+    padding-left: 30px;
+    min-height: auto;
+    max-height: 714px;
+	background-color: #f19f7c;
+	font-size:20px;
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+}
+section{
+    font-family: 'Amatic SC', cursive;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+    height: auto;
+}
+footer{
+    background-color: #452a37;
+}
+.meme{
+    width: 450px;
+    height: 450px;
+    
+}
+article{
+    width: 90%;
+}
+.img{
+    width: 20%;
+    height: 150px;
+}
+p{
+    margin-bottom: 5px;
+}
+input{
+    margin-bottom: 5px;
+}
+#tamano{
+    margin-bottom: 20px     ;
+}
+select{
+    margin-bottom: 10px;
+}

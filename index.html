@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/icono.ico">
+    <title>Creador de memes</title>
+</head>
+<body>
+    
+</body>
+</html>
+<header>
+    <h1>¡Javascript!</h1>
+</header>
+<section>
+<section class="seccion_1" id="seccion_1">
+        <h1 id="texto_h1"></h1>
+        <img src="images/meme_1.png" class="meme" id="imagen">
+        <h1 id="texto_h2"></h1>
+</section>
+<section class="seccion_2">
+    <article>
+        <div>
+            <div>
+                <h1>Editor de imagen</h1>
+                <div>
+                    <div>
+                        <p>Color de fondo</p>
+                        <input type="color" id="color" value="#ffbda1" onchange="cambiar()">
+                    </div>
+                </div>
+                <div>
+                        <div>
+                            <img src="images/meme_1.png" class="img" onclick="cambio_imagen('meme_1');">
+                            <img src="images/meme_2.png" class="img" onclick="cambio_imagen('meme_2');">
+                            <img src="images/memes_3.png" class="img" onclick="cambio_imagen('memes_3');">
+                            <img src="images/meme_4.png" class="img" onclick="cambio_imagen('meme_4');">
+                        </div> 
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <p>Texto Arriba:</p> 
+                        <input type="text" id="text_arriba" onchange="arriba()">
+                    </div> 
+                    <div>
+                        <p>Texto Abajo: </p> 
+                        <input type="text" id="text_abajo" onchange="abajo()">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>Tipo de letra:</p>
+                        <select id="opcionfuente" onchange="fuente()">
+                            <option value="'Bebas Neue',cursive">letra 1</option>
+                            <option value="'Shadows Into Light', cursive">letra 2</option>
+                            <option value="'Lilita One', cursive">letra 3</option>
+                        </select>
+                    </div>
+                    <div >
+                        <p>Color de letra:</p>
+                        <input type="color" id="colore" onchange="cambio_color()">    
+                    </div>
+                    <div> 
+                        <p>Tamaño de letra:</p>
+                        <input type="range" id="tamano" name="tamano" min="30" max="80" onchange="cambio_tamano()"> 
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </article>
+</section>
+</section>
+<footer>D A N D </footer>
+
+<script src="js/codigo.js"></script>
